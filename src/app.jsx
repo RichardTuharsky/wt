@@ -5,13 +5,13 @@ import About from './components/about/About'
 import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact'
-import Footer from  './components/footer/footer'
+import Footer from  './components/footer/Footer'
 import Experience from './components/experience/Experience'
 
- const app = () => {
+ const App = () => {
   return (
     <>
-       <Header />
+       <Header/>
        <Nav/>
        <About/>
        <Experience/>
@@ -23,4 +23,4 @@ import Experience from './components/experience/Experience'
   )
 }
 
-export default app
+export default App
