@@ -5,17 +5,20 @@ import About from './components/about/About'
 import Portfolio from './components/portfolio/Portfolio'
 import Testimonial from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact'
-import Footer from  './components/footer/Footer'
+import Footer from './components/footer/Footer'
 import Experience from './components/experience/Experience'
 
 const App = () => (
   <div className="app">
-    <Nav/>
+    <Nav />
     <Header />
-    <About />
-    <Testimonial/>
+    <Testimonial />
+    <Contact/>
+    <Portfolio/>
     <Footer />
+    <Experience/>
   </div>
 );
+
 
 export default App
