@@ -9,7 +9,7 @@ import {IoMdCall} from 'react-icons/io'
 function Nav() {
   return (
     <nav>
-      <a href="#"><AiOutlineHome/></a>
+      <a href="#" className='active'><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
       <a href="#experience"><AiOutlineFundProjectionScreen/></a>
       <a href="#portoflio"><BsCodeSquare/></a>
