@@ -17,10 +17,10 @@
  :root {
   --color-bg: #257991;
   --color-bg-variant: #20428c;
-  --color-primary: #4db5ff;
+  --color-primary: hsl(60, 84%, 54%); /*DW CV, lets talk, ikony*/
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-light: rgba(255,255,255,0.6);
-  --color-white: #fff;
+  --color-white: rgb(233, 233, 233);
 
   --transition: all 400ms ease;
 
