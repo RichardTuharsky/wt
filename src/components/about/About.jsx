@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import {FaAward} from 'react-icons/fa'
 import {FaLaptopCode} from 'react-icons/fa'
-import NFT from '../../assets/me.png'
+//import NFT from '../../assets/me.png'
 
 const About = () => {
   return (
@@ -12,8 +12,7 @@ const About = () => {
         <div className="container about__container">
           <div className='about__me'>
             <div className="about__me-image"></div>
-            <img src={NFT} alt= "me"/>
-
+            
             <div className='about__content'>
               <div className="about__cards">
                 <article className='about__card'>
@@ -22,7 +21,7 @@ const About = () => {
                   <small>1 Year</small>
                 </article>
                 <article className='about__card'>
-                  <FaLaptopCode className='project__icon'/>
+                  <FaLaptopCode className='about__icon'/>
                   <h5>Projects</h5>
                   <small>1 Year</small>
                 </article>
