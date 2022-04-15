@@ -7,7 +7,7 @@ function Experience() {
       <h5>What Skills I have</h5>
       <h2>My experience</h2>
       
-      <div className='container experience__container'>
+    <div className='container experience__container'>
         <div className='experience__frontend'>
         <h3>Frontend Development</h3>
         <div className='experience__content'>
@@ -32,8 +32,8 @@ function Experience() {
             <small className='text-light'>Beginner</small>
           </article>
         </div>
-      </div>
-      </div>
+        </div>
+     
         {/*koniec frontendu*/}
 
       <div className='experience__backend'>
@@ -61,6 +61,7 @@ function Experience() {
           </article>
         </div>
       </div>
+    </div>
       </section>
   )
 }
