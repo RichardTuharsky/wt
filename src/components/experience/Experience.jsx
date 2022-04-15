@@ -12,22 +12,22 @@ function Experience() {
         <h3>Frontend Development</h3>
         <div className='experience__content'>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>HTML</h4>
             <small className='text-light'>Intermediate</small>
           </article>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>CSS</h4>
             <small className='text-light'>Intermediate</small>
           </article>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>JavaScript</h4>
             <small className='text-light'>Intermediate</small>
           </article>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>React</h4>
             <small className='text-light'>Beginner</small>
           </article>
@@ -40,22 +40,22 @@ function Experience() {
       <h3>Backend Development</h3>
         <div className='experience__content'>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>Node JS</h4>
             <small className='text-light'>Beginner</small>
           </article>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>.NET CORE</h4>
             <small className='text-light'>Beginner</small>
           </article>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>C#</h4>
             <small className='text-light'>Beginner</small>
           </article>
           <article className='experience__details'>
-            <BsPatchCheckFill/>
+            <BsPatchCheckFill className='experience__icon'/>
             <h4>MySQL</h4>
             <small className='text-light'>Beginner</small>
           </article>

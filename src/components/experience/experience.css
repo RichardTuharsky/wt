@@ -33,3 +33,7 @@
     row-gap: 2rem;
 }
 
+/*farba pre ikony*/
+.experience__icon {
+    color: var(--color-primary);
+}
