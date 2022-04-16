@@ -11,29 +11,30 @@ function Portfolio() {
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-             <img src="{IMG1}" alt="" />
+            <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/RichardTuharsky" className='btn' target='_blank'>GitHub</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="https://github.com/RichardTuharsky"className='btn'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-             <img src="{IMG2}" alt="" />
+            <img src={IMG2} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/RichardTuharsky" className='btn' target='_blank'>GitHub</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="https://github.com/RichardTuharsky"className='btn'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
-        {/*<article className='portfolio__item'>
+        <article className='portfolio__item'>
           <div className="portfolio__item-image">
-             <img src="{IMG1}" alt="" />
+            <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/RichardTuharsky" className='btn' target='_blank'>GitHub</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-  </article> */}
+          <a href="https://github.com/RichardTuharsky"className='btn'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
+        </article>
       </div>
+ 
       </section>
   )
 }

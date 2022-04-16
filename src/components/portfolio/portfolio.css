@@ -1,4 +1,4 @@
-.portfolio__container {
+/*.portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -16,3 +16,4 @@
     border-color: var(--color-primary-variant);
     background: transparent;
 }
+*/
