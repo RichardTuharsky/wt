@@ -1,7 +1,6 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
@@ -11,11 +10,11 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Web App using React, .NET 5 and SQL **in progress**',
+    title: 'Web App using React, .NET Core and Microsoft SQL **in progress**',
     github: 'https://github.com/RichardTuharsky'
   },
   {
-    id: 3,
+    id: 2,
     image: IMG3,
     title: 'School project interactive map in JavaScript using Google API',
     github: 'https://github.com/RichardTuharsky/U-10--mapa'
@@ -27,13 +26,12 @@ const data = [
     github: 'https://github.com/RichardTuharsky/tic-tac-toe'
   },
   {
-    id: 3,
+    id: 4,
     image: IMG5,
     title: 'Also one of my first projects, a drawing app',
     github: 'https://github.com/RichardTuharsky/Drawing-app'
   },
 ] 
-
 
 function Portfolio() {
   return (
