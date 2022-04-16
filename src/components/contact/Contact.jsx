@@ -16,8 +16,8 @@ function Contact() {
             <MdEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>tuharsky.richard@gmail.com</h5>
-            {/* Treba fix*/}
-            <a href="mailto:tuharsky.richard@gmail.com" target= "_blank">Send me a message</a> 
+            
+            <a href="mailto:tuharsky.richard@gmail.com">Send me a message</a> 
           </article>
           <article className='contact__option'>
             <BiPhoneCall className='contact__option-icon'/>
