@@ -21,8 +21,12 @@
     border-color: var(--color-primary-variant);
     cursor:default;
     
-    
 }
+
+.about__text {
+   text-align: center;
+}
+
 
 
 .about__icon {
