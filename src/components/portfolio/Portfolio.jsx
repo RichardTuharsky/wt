@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/portfolio5.jpg'
 
 /*dymaicke pridavanie projektov do portfolia*/
 const data = [
