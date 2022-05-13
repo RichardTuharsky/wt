@@ -1,3 +1,4 @@
+/*karty */
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -6,7 +7,7 @@
     margin-right: 10px;
     width: 80%;
 }
-
+/*zaoblenie karty,atd.*/
 .about__card {
     background: var(--color-bg-variant);
     border: 2px solid transparent;
@@ -15,20 +16,20 @@
     text-align: center;
     transition: var(--transition);
 }
-
+/*animacia*/
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor:default;
     
 }
-
+/*text*/
 .about__text {
    text-align: center;
 }
 
 
-
+/*ikony v kartach*/
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;

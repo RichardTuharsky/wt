@@ -6,7 +6,7 @@ function Experience() {
     <section id='experience'>
       <h5>What Skills I have</h5>
       <h2>I use these technologies most often </h2>
-      
+      {/*frontend*/}
     <div className='container experience__container'>
         <div className='experience__frontend'>
         <h3>Frontend Development</h3>
@@ -36,6 +36,7 @@ function Experience() {
      
         {/*koniec frontendu*/}
 
+        {/*backend*/}
       <div className='experience__backend'>
       <h3>Backend Development</h3>
         <div className='experience__content'>
@@ -46,12 +47,12 @@ function Experience() {
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__icon'/>
-            <h4>.NET CORE</h4>
+            <h4>C++</h4>
             <small className='text-light'>Beginner</small>
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__icon'/>
-            <h4>C#</h4>
+            <h4>C</h4>
             <small className='text-light'>Beginner</small>
           </article>
           <article className='experience__details'>

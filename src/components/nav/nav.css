@@ -1,3 +1,4 @@
+/*navigacny panelik*/
 nav {
     background: rgba(0,0,0,0.3);
     width: max-content;
@@ -14,7 +15,7 @@ nav {
     backdrop-filter: blur(15px);
 }
 
-
+/*dizajn*/
 nav a {
     background: transparent;
     padding: 0.8rem;
